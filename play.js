@@ -8,7 +8,8 @@ const conn = net.createConnection({
   host: "172.27.168.139",
   port: 50541,
 });
-
+conn.on('data', (message) => {
+  console.log(message);
 conn.setEncoding("utf8"); // interpret data as text
 
 return conn;
