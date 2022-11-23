@@ -20,25 +20,25 @@ const connect = function () {
   });
 
 //   conn.on("connect", () => {
-//    setTimeout(() => {conn.write("Move: up")
+//    setInterval(() => {conn.write("Move: up")
 //  }, 2000);
     
 //    });
 
 //    conn.on("connect", () => {
-//     setTimeout(() => {conn.write("Move: down")
+//     setInterval(() => {conn.write("Move: down")
 //   },2050);
      
 //     });
 
 //     conn.on("connect", () => {
-//       setTimeout(() => {conn.write("Move: left")
+//       setInterval(() => {conn.write("Move: left")
 //     }, 2100);
        
 //       });
 
 // conn.on("connect", () => {
-//     setTimeout(() => {conn.write("Move: right")
+//     setInterval(() => {conn.write("Move: right")
 //   }, 2150);
      
 //     });
