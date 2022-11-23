@@ -18,7 +18,31 @@ const connect = function () {
   conn.on("connect", () => {
     conn.write("Name: Eby");
   });
-  
+
+//   conn.on("connect", () => {
+//    setTimeout(() => {conn.write("Move: up")
+//  }, 2000);
+    
+//    });
+
+//    conn.on("connect", () => {
+//     setTimeout(() => {conn.write("Move: down")
+//   },2050);
+     
+//     });
+
+//     conn.on("connect", () => {
+//       setTimeout(() => {conn.write("Move: left")
+//     }, 2100);
+       
+//       });
+
+// conn.on("connect", () => {
+//     setTimeout(() => {conn.write("Move: right")
+//   }, 2150);
+     
+//     });
+
 conn.setEncoding("utf8"); // interpret data as text
 
 return conn;
