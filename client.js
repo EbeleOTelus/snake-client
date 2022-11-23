@@ -48,11 +48,11 @@ conn.setEncoding("utf8"); // interpret data as text
 return conn;
 };
 
-console.log("Connecting ...");
+
 connect();
 
 
-module.export = {connect};
+module.export = { connect };
 
 
 
