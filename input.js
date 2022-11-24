@@ -32,6 +32,14 @@ if (key === 's'){
 if (key === 'd'){
   connection.write("Move: right")
 }
+
+if (key === 'i'){
+  connection.write("Say: Look out!")
+}
+
+if (key === 'o'){
+  connection.write("Say: Here we go!")
+}
 };
 
 
